@@ -7,4 +7,4 @@ services:
     ports:
       - 4873:4873
     volumes:
-      - ./data:/verdaccio
+      - ./storage:/verdaccio/storage
